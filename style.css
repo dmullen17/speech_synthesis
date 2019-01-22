@@ -1,0 +1,71 @@
+:root {
+    --background-color: #ffc600;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    background-image:
+    radial-gradient(circle at 100% 150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, #42D2BB 10%, #3BC1AC 11%, #3BC1AC 23%, #42D2BB 24%, #42D2BB 30%, #3BC1AC 31%, #3BC1AC 43%, #42D2BB 44%, #42D2BB 50%, #3BC1AC 51%, #3BC1AC 63%, #42D2BB 64%, #42D2BB 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #42D2BB 5%, #3BC1AC 6%, #3BC1AC 15%, #42D2BB 16%, #42D2BB 20%, #3BC1AC 21%, #3BC1AC 30%, #42D2BB 31%, #42D2BB 35%, #3BC1AC 36%, #3BC1AC 45%, #42D2BB 46%, #42D2BB 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, #42D2BB 5%, #3BC1AC 6%, #3BC1AC 15%, #42D2BB 16%, #42D2BB 20%, #3BC1AC 21%, #3BC1AC 30%, #42D2BB 31%, #42D2BB 35%, #3BC1AC 36%, #3BC1AC 45%, #42D2BB 46%, #42D2BB 49%, transparent 50%, transparent);
+    background-size:100px 50px;
+}
+
+.voiceinator {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 40vw;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    font-family: cursive;
+    background: var(--background-color);
+    border-radius: 5px 5px 0 0;
+}
+
+textarea {
+    padding: 10px;
+    height: 120px;
+    background: rgba(0, 0, 0, .05);
+    border: 0;
+    border-radius: 3px;
+}
+
+button {
+    flex: 1;
+    background: var(--background-color);
+    font-family: cursive;
+    font-size: 25px;
+}
+
+button, textarea, select, label, input {
+    margin: 10px;
+}   
+
+label {
+    margin: 0 12px 5px 12px;
+    font-size: 12px;
+}
+
+input {
+    margin: 0 12px 12px 12px;
+}
